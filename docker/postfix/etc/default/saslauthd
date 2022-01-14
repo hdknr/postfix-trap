@@ -1,0 +1,7 @@
+START=no
+DESC="SASL Authentication Daemon"
+NAME="saslauthd"
+MECHANISMS="pam"
+MECH_OPTIONS=""
+THREADS=5
+OPTIONS="-c -m /var/run/saslauthd"

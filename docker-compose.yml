@@ -1,0 +1,14 @@
+version: '3'
+services:
+
+  postfix:
+    build:
+      context: .
+      dockerfile: ./docker/postfix/Dockerfile
+    ports:
+      - "25:25"
+
+
+volumes:
+  storage:
+    driver: local

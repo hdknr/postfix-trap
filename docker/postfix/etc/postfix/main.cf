@@ -27,4 +27,5 @@ smtpd_sasl_local_domain =
 smtpd_recipient_restrictions = permit_mynetworks permit_sasl_authenticated reject_unauth_destination
 broken_sasl_auth_clients = yes
 #
+trap_destination_recipient_limit = 1
 default_transport=trap

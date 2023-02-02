@@ -4,7 +4,7 @@ services:
   postfix:
     build:
       context: .
-      dockerfile: ./docker/postfix/Dockerfile
+      dockerfile: ./Dockerfile
     ports:
       - "25:25"
     volumes:
